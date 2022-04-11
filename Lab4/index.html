@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блочная модель</title>
+</head>
+<body>
+    <style>
+        .blick-block{
+            margin: 10px;
+            padding: 10px;
+            width: 30px;
+            height: 60px;
+            float: left;
+            font-size: large;
+            font-weight: bold;
+            text-align: center;
+        }
+        #frst{
+            border: 3px solid rgb(255, 0, 0);
+        }
+        #sec{
+            border: 3px dashed rgb(0, 255, 0);
+        }
+        #thrd{
+            border: 3px dotted rgb(0, 0, 255)
+        }
+        #frth{
+            border: 3px double rgb(0,255,255);
+        }
+        #fifth{
+            border: 3px solid rgb(255,0,255);
+        }
+        #sixth{
+            border: 3px solid rgb(255, 255, 0);
+        }
+        #sevth{
+            border: 3px solid rgb(0, 0, 0);
+        }
+        #p1{
+            width: 400px;
+            text-align: center;
+            border: 1px solid #FF4500;
+        }
+        #p2{
+            border: 5px solid red;
+            border-radius: 20px/40px;
+            box-shadow: inset 2px 2px 8px 8px rgba(0, 0, 0, 0.5);
+            overflow:auto;
+            height: 40px;
+        }
+        #p3{
+            border: 1px solid #FF6347;
+        }
+        #p1 > span{
+            display: inline-block;
+            background-color: #FFA500;
+            border: 1px solid #FF4500;
+            padding: 5px;
+            margin: 5px;
+        }
+        #p2 > span{
+            display: inline-block;
+            background-color: #FFA500;
+            border: 1px solid #FF4500;
+            padding: 5px;
+            margin: 5px;
+        }
+        #p3 > span{
+            display: inline-block;
+            background-color: #FFA500;
+            border: 1px solid #FF4500;
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
+    <div class="blick-block" id="frst">R</div>
+    <div class="blick-block" id="sec">G</div>
+    <div class="blick-block" id="thrd">B</div>
+    <div class="blick-block" id="frth">C</div>
+    <div class="blick-block" id="fifth">M</div>
+    <div class="blick-block" id="sixth">Y</div>
+    <div class="blick-block" id="sevth">K</div>
+    <br><br><br><br><br>
+    <p id="p1">Lorem, <span>ipsum</span> dolor sit amet <a href="">consectetur</a>  adipisicing elit. Repudiandae eius dolores sunt doloribus provident ducimus ipsa modi? Natus perspiciatis aspernatur modi voluptatibus, at voluptas labore quae, eum, nisi unde explicabo?</p>
+    <p id="p2">Rem omnis <span>assumenda</span>  minima corporis eum mollitia totam quidem? Omnis in consequuntur officia exercitationem ratione unde aliquam rem harum voluptatem? Voluptates tempora illum sequi. Fugit ab minus quo nulla facere.</p>
+    <p id="p3">Nulla, vel, <span>mariones</span> nostrum <br> odio deleniti sequi eaque consectetur cumque ullam ducimus commodi hic esse pariatur accusamus et eius vitae consequuntur omnis cum labore sint reiciendis, in illo quia! Perferendis.</p>
+</body>
+</html>

@@ -1,0 +1,49 @@
+BODY
+{ 
+    display:block;
+    text-align:center;
+    font-size:15pt;
+    align-self: baseline;
+}
+HED
+{ 
+    margin: 30px;
+    display: block;
+    border: groove 2px rgb(0, 141, 129);
+    border-radius: 5px;
+}
+to
+{ 
+    display: block;
+    text-align:left;
+    font-family: 'Courier New', Courier, cursive;
+}
+from{ 
+    display: block;
+    text-align:left;
+    font-family: 'Courier New', Courier, monospace, cursive;
+}
+SMTH{
+    display: block;
+    margin:15px;
+    border: ridge 3px blueviolet;
+    border-radius: 5px;
+    background-color: rgb(204, 164, 171);
+}
+main{
+    display: block;
+    font-weight: 400;
+    font-family: fantasy;
+}
+cells{
+    display: block;
+    text-align: left;
+    font-family: serif;
+}
+epilogue{
+    display: block;
+    margin-right: 10px;
+    text-align: right;
+    font-family: cursive;
+    transform: skew(-25deg);
+}

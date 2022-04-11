@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: 'Caveat';
+            src: url('fonts/Caveat.woff');
+        }
+        @font-face {
+            font-family: 'Exo2';
+            src: url('fonts/Exo2.woff');
+        }
+        @font-face {
+            font-family: 'Commfortaa';
+            src: url('fonts/Comfortaa.woff');
+        }
+        h2{
+            margin-bottom: 1.2em;
+            margin-top: 0.2rem;
+            line-height: 25px;
+            text-indent: 25px;
+        }
+        p{
+            text-indent: 25px;
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 20px;
+            line-height: 200%;
+        }
+        p::first-letter{
+            font-weight: bolder;
+            font-size: 45px;
+            color: white;
+            background-color: hsla (275, 100%, 10%, 1);
+        }
+        li {
+            list-style-type: none;
+            counter-increment: item;
+        }
+        li:before {
+            content: counter(item, upper-roman) ".";
+            color: blue;
+            padding-right: 10px;
+        }
+        li span{
+            font-family: 'Commfortaa';
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-family: 'Caveat';text-align: center; text-shadow: 3px 3px 11px; margin: 5px; padding: 0; line-height: 0; font-weight: bolder; font-style: italic; font-size: 45px;">FFFF</h1>
+    <h2 style="font-family: 'Exo2';">AAA</h2>
+    <p style="font-family: 'Commfortaa';">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio repellendus pariatur et, dolorum labore deleniti voluptatum ad beatae asperiores! Voluptas, dolor blanditiis a odio modi amet? Cum doloremque quo ducimus!</p>
+    <p style="font-family: 'Commfortaa';">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, voluptatibus magnam cumque iste unde id dolor, quidem deserunt sapiente a at suscipit, assumenda reiciendis ex! Nihil eaque ipsa iure tenetur!</p>
+    <h2 style="font-family: 'Exo2';">BBB</h2>
+    <p style="font-family: 'Commfortaa';">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis minus asperiores animi culpa sunt, beatae omnis officia iure architecto, ad, id veritatis commodi ratione alias voluptatem tempora accusantium tenetur eius?</p>
+    <h2>SDADASDASD</h2>
+    <ol type="I">
+        <li>sample</li>
+        <li><span>sample</span></li>
+        <li><span>sample</span></li>
+        <li><span>sample</span></li>
+        <li><span>sample</span></li>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xmlversion "1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="lab12_2.xsl"?>
+<ALL>
+	<STUDENTS>
+		<STUDENT>
+			<NAME>Неважнов Алексей</NAME>
+			<MATH>10</MATH>
+			<PHYS>2</PHYS>
+			<IT>8</IT>
+		</STUDENT>
+		<STUDENT>
+			<NAME>Кактотамов Артём</NAME>
+			<MATH>8</MATH>
+			<PHYS>10</PHYS>
+			<IT>2</IT>
+		</STUDENT>
+		<STUDENT>
+			<NAME>Чтотович Виктор</NAME>
+			<MATH>2</MATH>
+			<PHYS>8</PHYS>
+			<IT>10</IT>
+		</STUDENT>
+	</STUDENTS>
+</ALL>

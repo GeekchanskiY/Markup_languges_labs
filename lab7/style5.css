@@ -1,0 +1,120 @@
+img{
+    width: 300px;
+}
+div{
+    position: absolute;
+}
+@keyframes opacy{
+    0% {
+        color: blue;
+        opacity: 0;
+    }
+    25% {
+        color: green;
+        opacity: 0.4;
+    }
+    50% {
+        color: blue;
+        opacity: 0.8;
+    }
+    75% {
+        color: green;
+        opacity: 0.6;
+    }
+    100% {
+        color: blue;
+        opacity: 1;
+    }
+}
+h1{
+    text-align: center;
+    font-family: comic sans ms;
+    animation: opacy infinite 10s linear;
+    animation-direction:alternate;
+}
+@keyframes squar{
+    0%{
+        left:0%;
+        top:0%;
+    }
+    25% {
+        left: 80%;
+        top:0%;
+    }
+    50% {
+        left: 80%;
+        top:60%;
+    }
+    75% {
+        left: 0%;
+        top:60%;
+    }
+    100%{
+        left:0%;
+        top:0%;
+    }
+}
+@keyframes goriz{
+    0%{
+        left:0%;
+        top:0%;
+    }
+    50% {
+        left: 80%;
+        top:0%;
+    }
+    100%{
+        left:0%;
+        top:0%;
+    }
+}
+@keyframes upper{
+    0%{
+        left:0%;
+        top:0%;
+    }
+    50% {
+        left: 0%;
+        top:60%;
+    }
+    100%{
+        left:0%;
+        top:0%;
+    }
+}
+@keyframes lane{
+    0%{
+        left:10%;
+        top:10%;
+    }
+    10% {
+        left: 5%;
+        top:10%;
+    }
+    20% {
+        left: 8%;
+        top:13%;
+    }
+    50% {
+        left: 25%;
+        top:15%;
+    }
+    100%{
+        left:0%;
+        top:0%;
+    }
+}
+#d1{
+    animation: goriz 5s linear infinite;
+}
+#d2{
+    animation: upper 5s linear infinite;
+}
+#d3{
+    animation: lane 5s linear infinite;
+}
+#d4{
+    animation: squar 10s linear infinite;
+    width: 300px;
+    height: 300px;
+}

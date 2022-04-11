@@ -1,0 +1,65 @@
+a{
+    text-decoration: none;
+}
+#limenu{
+    list-style-type:none;
+    font-size: 20px;
+}
+.menu{
+    width: 250px;
+    position: absolute;
+}
+.content{
+    width: 400px;
+    margin-left: 270px;
+    position: absolute;
+    padding: 20px;
+}
+div{
+    display: inline-block;
+    border: 2px solid black;
+}
+ol{
+    margin-left: 20px;
+    padding: 0;
+}
+p{
+    font-size: 20px;
+}
+
+@media(max-width:740px){
+ol, li{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+#menu{
+    display: block;
+    position: absolute;
+}
+#menu li{
+    display: block;
+    position: relative;
+}
+#menu li ol{
+    position: absolute;
+    display: none;
+}
+#menu li:hover ol {
+    display: block;
+}
+.menu{
+    height: 150px;
+    width: 150px;
+}
+div{
+    display: block;
+    margin: 20px;
+}
+.content{
+    margin-left: 20px;
+}
+.content , .menu{
+    position:static;
+}
+}

@@ -1,0 +1,33 @@
+.grid{
+    display: grid;
+    grid-template-rows: 150px 500px 100px;
+    grid-template-columns: 10% 55% 28%;
+    grid-gap: 10px;
+    text-align: center;
+}
+.nav{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.head{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end:4;
+}
+a{
+    display: inline-block;
+    width: 100%;
+    margin: 4%;
+    font-size: 18px;
+    text-decoration: none;
+}
+p{
+    font-size: 18px;
+    text-align: left;
+}
+a:visited{
+    color: blue;
+}

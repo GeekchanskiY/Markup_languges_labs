@@ -1,0 +1,17 @@
+.nav{
+list-style-type: none;
+}
+.nav li{
+    display: inline-block;
+}
+.nav a{
+    text-decoration:none;
+    font-size: 22px;
+    padding: 15px;
+    margin: 10px;
+}
+div{
+    border: 1px solid black;
+    margin: -2px;
+    background-color: yellow;
+}

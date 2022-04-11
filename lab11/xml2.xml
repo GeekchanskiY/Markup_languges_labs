@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BODY [
+<!ELEMENT BODY (HED, SMTH, epilogue)>
+<!ELEMENT HED (to,from)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT SMTH (main, cells)>
+<!ELEMENT main (#PCDATA)>
+<!ELEMENT cells (#PCDATA)>
+<!ELEMENT epilogue (#PCDATA)>]>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+<BODY>
+<HED>
+<to>To: Me.</to>
+<from>From: My Mind.</from>
+</HED>
+<SMTH>
+<main>The main priorities to me.</main>
+<cells>1. Eat food</cells>
+<cells>2. Sing songs</cells>
+<cells>3. Feel smell</cells>
+<cells>4. Sleep well</cells>
+<cells>5. Study good</cells>
+</SMTH>
+<epilogue>Thanks for your attention.</epilogue>
+</BODY>
+

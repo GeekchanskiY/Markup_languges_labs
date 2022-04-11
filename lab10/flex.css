@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+    width: 50%;
+    font-size: 18px;
+    margin: auto;
+}
+.first{
+    width: 100%;
+    margin-top: 20%;
+}
+.second{
+    width: 100px;
+}
+#img{
+    display: inline-block;
+    margin: 10px;
+}
+img{
+    width: 350px;
+}
+
+@media(max-width:480px){
+    img{
+        width: 100px;
+    }
+}

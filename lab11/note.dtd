@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE BODY [
+<!ELEMENT BODY (HED, SMTH, epilogue)>
+<!ELEMENT HED (to,from)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT SMTH (main, cells)>
+<!ELEMENT main (#PCDATA)>
+<!ELEMENT cells (#PCDATA)>
+<!ELEMENT epilogue (#PCDATA)>]>

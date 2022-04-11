@@ -1,0 +1,32 @@
+<?xmlversion "1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="lab12.xsl"?>
+<BODY>
+<aboba>
+	<HED>
+		<to>To: Me.</to>
+		<from>From: My Mind.</from>
+	</HED>
+	<SMTH>
+		<cells>1. Eat food</cells>
+		<cells>2. Sing songs</cells>
+		<cells>3. Feel smell</cells>
+		<cells>4. Sleep well</cells>
+		<cells>5. Study good</cells>
+	</SMTH>
+	<SMTH>
+		<cells>21. Sing songs</cells>
+		<cells>2. Sing songs</cells>
+		<cells>3. Feel smell</cells>
+		<cells>4. Sleep well</cells>
+		<cells>5. Study good</cells>
+	</SMTH>
+	<SMTH>
+		<cells>31. Feel smell</cells>
+		<cells>2. Sing songs</cells>
+		<cells>3. Feel smell</cells>
+		<cells>4. Sleep well</cells>
+		<cells>5. Study good</cells>
+	</SMTH>
+	<epilogue>Thanks for your attention.</epilogue>
+    </aboba>
+</BODY>

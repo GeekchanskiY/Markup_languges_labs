@@ -1,0 +1,15 @@
+.firstgrouptable{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+.secondgrouptable{
+    font-size: 20pt;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+.thirdgrouptable{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22pt;
+}
